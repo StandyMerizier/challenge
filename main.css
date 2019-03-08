@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+section{
+    border: 2px solid grey;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    background-color: darkturquoise;
+    width: 50%;
+    height: 200px;
+}
+
+.div2, .div3 {
+    background-color: orange;
+}
+
+.div2{
+    width: 50%;
+    height: 150px;
+}
+
+.div3 {
+    width: 50%;
+    height: 100px;
+}
